@@ -1,0 +1,10 @@
+글씨가 div중앙에 오게하는 명령어는 딱히 없음.
+>> css/ table에서만 사용/ vertical align 또는 Display : flex ? 가 있지만 기초단계에는 어울리지 않는 난이도..
+>>>line-height 를 height 값이랑 맞춰써주면 한 줄을 적었을 때 가운데 정렬하게 됨.. 을 사용하기로.
+
+css에서 float 을 써서 올린 div 아래에 오는 div에는 clear: both; 를 써서 float의 속성을 차단할 수 있음.
+
+자식태그에 height값을 부모가 따라갈 수 있다.
+w100p 는 기본값이라 지울 수 있다. 
+
+layout_06 :  상속받는 요소에 대해 적혀있다.
