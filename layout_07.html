@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout_07</title>
+    <style>
+        /* 리셋 */
+        * {margin: 0; padding: 0;}
+        
+        /* 전체 레이아웃 */
+        #wrap { font-size: 20px; color: #fff; text-align: center;}
+        #header { height: 140px; background: #eee;}
+        #banner { height: 450px; background: #ddd;}
+        #contents { height: 950px; background: #ccc;}
+        #footer { height: 220px; background: #bbb;}
+
+        /* 레이아웃 */
+        #header_top {height: 70px; background: pink;}
+        #header_nav {height: 70px; background: rgb(255, 169, 183);}
+        #contents_1 {height: 90px; background: rgb(255, 152, 169);}
+        #contents_2 {height: 480px; background: rgb(255, 131, 152);}
+        #contents_3 {height: 380px; background: rgb(255, 111, 135);}
+        #footer_nav {height: 60px; background: rgb(255, 87, 115);}
+        #footer_info {height: 160px; background: rgb(255, 57, 90);}
+
+        /* 컨테이너 */
+        .container {width: 1100px; margin: 0 auto; height: inherit; background: rgba(255, 255, 255, 0.3);}
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+
+        <div id="header">
+            <div id="header_top">
+                <div class="container">header_top</div>
+            </div>
+            <div id="header_nav">
+                <div class="container">header_nav</div>
+            </div>
+        </div>
+        <!-- // header -->
+        
+        <div id="banner">
+            <div class="container">banner_container</div>
+        </div>
+        <!-- // banner -->
+        
+        
+        <div id="contents">
+            <div id="contents_1">
+                <div class="container">contents_1</div>
+            </div>
+            <div id="contents_2">
+                <div class="container">contents_2</div>
+            </div>
+            <div id="contents_3">
+                <div class="container">contents_3</div>
+            </div>
+        </div>
+        <!-- // contents -->
+        
+        
+        <div id="footer">
+            <div id="footer_nav">
+                <div class="container">footer_nav</div>
+            </div>
+            <div id="footer_info">
+                <div class="container">footer_info</div>
+            </div>
+            <!-- // footer -->
+        </div>
+</body>
+</html>
